@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+
+body {
+  font-family: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  background-color: rgb(39 39 42); 
+  color: white;
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(39 39 42);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255 255 255 / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255 255 255 / 0.5);
+}
