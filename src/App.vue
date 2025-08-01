@@ -41,7 +41,7 @@
           <p class="text-white opacity-80 text-base md:text-lg leading-relaxed">
             Specializuji se na moderní webové technologie s důrazem na <span class="text-green-400">Vue.js</span>, 
             <span class="text-green-400">Nuxt</span> a <span class="text-blue-400">TypeScript</span>. 
-            Vytvářím interaktivní webové aplikace a mobilní řešení.
+            Vytvářím mobilní a interaktivní webové aplikace.
           </p>
         </div>
 
@@ -73,7 +73,7 @@
           subtitle="Online lezecký deníček a disk. fórum"
           web-link="https://vylezeno.cz/"
           :images="vylezenoImages"
-          :auto-play="true"
+          auto-play
         >
           <template #technologies>
             <TechBadge>
@@ -115,6 +115,7 @@
           web-link="https://gomoku.vanata.dev/"
           git-link="https://github.com/Daybringer/gomoku"
           :images="gomokuImages"
+          auto-play
         >
           <template #technologies>
             <TechBadge>
